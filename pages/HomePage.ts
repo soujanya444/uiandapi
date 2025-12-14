@@ -19,6 +19,7 @@ export class HomePage{
 
     async logoutFun(){
         await this.util.click(this.menuBar);
+        await this.page.waitForTimeout(100);
         await this.util.click(this.logout);
     
 }

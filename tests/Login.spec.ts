@@ -7,7 +7,8 @@ test("Testing the login funtnality of an application",  {
       { type: 'issue', description: 'Login smoke test' }
     ]
 },async({homePage})=>{
-
+  // Test implementation here
+  await homePage.navigateTo();
 });
 
 
